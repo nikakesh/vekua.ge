@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Rounded;
+  src: url("../fonts/alkroundedmtav-medium.otf");
+}
+@font-face {
+  font-family: glaho;
+  src: url("../fonts/bpg_glaho.ttf");
+}
+@font-face {
+  font-family: arial GEO;
+  src: url("../fonts/arial_geo.ttf");
+}
+body, html {
+  font-family: glaho;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #9FD8ED;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer-top {
+  width: 100%;
+  margin-top: 10vh;
+  background-color: #efefef;
+  height: 54vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+#social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+#social-media img {
+  width: 14vw;
+  transition: 0.6s;
+}
+#social-media div {
+  width: 16vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+#social-media div a i {
+  color: black;
+  transition: 0.6s;
+}
+#social-media div a:nth-child(1) i:hover {
+  color: blue;
+  cursor: pointer;
+}
+#social-media div a:nth-child(2) i:hover {
+  color: #fe096a;
+  cursor: pointer;
+}
+#social-media div a:nth-child(3) i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  text-align: center;
+}
+#contact p {
+  transition: 0.6s;
+}
+#contact p a {
+  color: #5aa6f6;
+}
+#contact p a:hover {
+  color: rgb(42, 138, 241);
+}
+
+#footer-bottom {
+  width: 100%;
+  background-color: #f7941d;
+  text-align: center;
+  font-family: arial GEO;
+  font-size: small;
+}/*# sourceMappingURL=footer.css.map */

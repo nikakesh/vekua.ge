@@ -1,0 +1,74 @@
+@use 'sass:list';
+@import './setUp.scss';
+
+footer{
+    width: 100%;
+    @include flex(space-around, center, column)
+}
+
+#footer-top{
+    width: 100%;
+    margin-top: 10vh;
+    background-color: #efefef;
+    height: 54vh;
+    @include flex(space-evenly, center, row);
+}
+
+#social-media{
+    @include flex(space-evenly, center, column);
+    height: 80%;
+
+    img{
+        width: 14vw;
+        transition: 0.6s;
+    }
+
+    div{
+        width: 16vw;
+        @include flex(space-evenly, center, row);
+        font-size: 1.5rem;
+
+        a i{
+            color: black;
+            transition: 0.6s;
+        }
+
+        $colors: blue, #fe096a, red;
+
+        @for $i from 1 through 3{
+            a:nth-child(#{$i}){
+                i:hover{
+                    color: list.nth($colors, $i);
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+    }
+
+}
+
+#contact{
+    @include flex(space-evenly, center, column);
+    height: 80%;
+    text-align: center;
+
+    p{
+        transition: 0.6s;
+        a{
+            color: #5aa6f6;
+            &:hover{
+                color: rgb(42, 138, 241);
+            }
+        }
+    }
+}
+
+#footer-bottom{
+    width: 100%;
+    background-color: #f7941d;
+    text-align: center;
+    font-family: arial GEO;
+    font-size: small;
+}

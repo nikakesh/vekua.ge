@@ -1,0 +1,442 @@
+@font-face {
+  font-family: Rounded;
+  src: url("../fonts/alkroundedmtav-medium.otf");
+}
+@font-face {
+  font-family: glaho;
+  src: url("../fonts/bpg_glaho.ttf");
+}
+@font-face {
+  font-family: arial GEO;
+  src: url("../fonts/arial_geo.ttf");
+}
+body, html {
+  font-family: glaho;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #9FD8ED;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@font-face {
+  font-family: Rounded;
+  src: url("../fonts/alkroundedmtav-medium.otf");
+}
+@font-face {
+  font-family: glaho;
+  src: url("../fonts/bpg_glaho.ttf");
+}
+@font-face {
+  font-family: arial GEO;
+  src: url("../fonts/arial_geo.ttf");
+}
+body, html {
+  font-family: glaho;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #9FD8ED;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+header {
+  transition: 0.6s;
+  height: 20vh;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  padding: 0;
+  color: white;
+  font-family: Rounded;
+  font-weight: bold;
+  z-index: 1;
+}
+header a:hover {
+  color: rgb(40, 40, 40);
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+#logo {
+  width: 14%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#links-cont {
+  width: 80%;
+  height: 100%;
+}
+
+#links-cont ul {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: Rounded;
+  src: url("../fonts/alkroundedmtav-medium.otf");
+}
+@font-face {
+  font-family: glaho;
+  src: url("../fonts/bpg_glaho.ttf");
+}
+@font-face {
+  font-family: arial GEO;
+  src: url("../fonts/arial_geo.ttf");
+}
+body, html {
+  font-family: glaho;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #9FD8ED;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer-top {
+  width: 100%;
+  margin-top: 10vh;
+  background-color: #efefef;
+  height: 54vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+#social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+#social-media img {
+  width: 14vw;
+  transition: 0.6s;
+}
+#social-media div {
+  width: 16vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+#social-media div a i {
+  color: black;
+  transition: 0.6s;
+}
+#social-media div a:nth-child(1) i:hover {
+  color: blue;
+  cursor: pointer;
+}
+#social-media div a:nth-child(2) i:hover {
+  color: #fe096a;
+  cursor: pointer;
+}
+#social-media div a:nth-child(3) i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  text-align: center;
+}
+#contact p {
+  transition: 0.6s;
+}
+#contact p a {
+  color: #5aa6f6;
+}
+#contact p a:hover {
+  color: rgb(42, 138, 241);
+}
+
+#footer-bottom {
+  width: 100%;
+  background-color: #f7941d;
+  text-align: center;
+  font-family: arial GEO;
+  font-size: small;
+}
+
+@font-face {
+  font-family: Rounded;
+  src: url("../fonts/alkroundedmtav-medium.otf");
+}
+@font-face {
+  font-family: glaho;
+  src: url("../fonts/bpg_glaho.ttf");
+}
+@font-face {
+  font-family: arial GEO;
+  src: url("../fonts/arial_geo.ttf");
+}
+body, html {
+  font-family: glaho;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #9FD8ED;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+.showing {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+
+.card {
+  width: 20%;
+  height: 100%;
+  border-radius: 1rem;
+  position: relative;
+  color: white;
+  text-align: left;
+  transition: scale 0.6s, transform 1.4s, opacity 1.4s;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.card h4 {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+.card:hover {
+  scale: 1.05 1.05;
+  cursor: pointer;
+}
+
+.card-other {
+  width: 20%;
+  height: 100%;
+  color: white;
+  display: grid;
+  place-items: center;
+  border: white solid 3px;
+  border-radius: 1rem;
+  transition: scale 0.6s, transform 1.4s, opacity 1.4s, background-color 0.6s;
+  text-align: center;
+}
+.card-other i {
+  padding: 0;
+  font-size: 6rem;
+}
+.card-other:hover {
+  scale: 1.05 1.05;
+  cursor: pointer;
+  background-color: #84d1ee;
+}
+
+.card-file {
+  transition: scale 0.6s, transform 1.4s, opacity 1.4s;
+  border: white solid 3px;
+  border-radius: 1rem;
+  width: 20%;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+.card-file button {
+  border: none;
+  width: 90%;
+  height: 50%;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+.card-file button span {
+  font-weight: bolder;
+}
+.card-file button i {
+  font-size: 1.3rem;
+  color: black;
+}
+.card-file button:hover {
+  cursor: pointer;
+}
+.card-file:hover {
+  scale: 1.05 1.05;
+  cursor: pointer;
+}
+
+body {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+#bg-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  bottom: 0;
+  font-family: arial GEO;
+}
+
+.box {
+  padding: 20px;
+  margin: 50px;
+  background-color: #84d1ee;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 1.4s;
+  font-weight: normal;
+}
+.box h1 {
+  font-family: Rounded;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  display: inline;
+  text-align: center;
+}
+.box p {
+  font-family: arial GEO;
+  font-size: 0.9rem;
+}
+
+#files {
+  width: 100%;
+}
+#files .cards {
+  height: 30vh;
+}
+
+footer {
+  position: relative;
+}/*# sourceMappingURL=about-us.css.map */

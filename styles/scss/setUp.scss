@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Rounded;
+    src: url('../fonts/alkroundedmtav-medium.otf');
+}
+
+@font-face {
+    font-family: glaho;
+    src: url('../fonts/bpg_glaho.ttf');
+}
+
+@font-face {
+    font-family: arial GEO;
+    src: url('../fonts/arial_geo.ttf');
+}
+
+@mixin flex($jus, $pos, $dir){
+    display: flex;
+    justify-content: $jus;
+    align-items: $pos;
+    flex-direction: $dir;
+}
+
+@mixin center{
+    display: grid;
+    place-items: center;
+}
+
+body, html{
+    font-family: glaho;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    // background-color: #eac398;
+    background-color: #9FD8ED;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    @include flex(space-evenly, center, row);
+}
+
+.hidden{
+    opacity: 0;
+    transform: translateX(-30%);
+}
+
+.showing{
+    opacity: 1;
+    transform: translateX(0);
+}

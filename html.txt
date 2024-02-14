@@ -1,0 +1,43 @@
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="#"><h1>vekua.ge</h1></a>
+            </div>
+            <div id="links-cont">
+                <ul>
+                    <li><a href="../index.html">მთავარი</a></li>
+                    <li><a href="./about-us.html">ჩვენს შესახებ</a></li>
+                    <li><a href="#">პროექტები</a></li>
+                    <li><a href="">საშაბათო სკოლა</a></li>
+                    <li><a href="https://www.youtube.com/@TV-ug6oo" target="_blank">VEKUA TV</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <footer>
+        <section id="footer-top">
+            <section id="social-media">
+                <img src="./images/logo.png" class="hidden">
+                <div>
+                    <a href="https://www.facebook.com/schoolvekua/"><i class="fa-brands fa-facebook hidden"></i></a>
+                    <a href="https://www.instagram.com/42vekuaschool/"><i class="fa-brands fa-instagram hidden"></i></a>
+                    <a href="https://www.youtube.com/channel/UCHl29oGvshhX8VzeU9Lgziw"><i class="fa-brands fa-youtube hidden"></i></a>
+                    <!-- <i class="fa-brands fa-x-twitter"></i> -->
+                </div>
+            </section>
+            <section id="contact">
+                <p class="hidden">თბილისი, პეტრე ჩაიკოვსკის 9</p>
+                <br>
+                <div>
+                    <p class="hidden">ელექტრონული ფოსტა - <a href="">tbilisi42@mes.gov.ge</a></p>
+                    <p class="hidden">ნომერი - <a href="">(+995) 032 2 99 00 73</a></p>
+                </div>
+            </section>
+        </section>
+        <section id="footer-bottom">
+            <p>სსიპ აკადემიკოს ილია ვეკუას სახელობის ფიზიკა-მათემატიკის ქალაქ თბილისის N42 საჯარო სკოლა</p>
+            <p>ყველა უფლება დაცულია ©<span id="year"></span></p>
+        </section>
+    </footer>
